@@ -20,13 +20,6 @@ class InstallData implements InstallDataInterface
      * @var array
      */
     private $ispuData;
-
-    /**
-     * Directory of Zipcodes
-     *
-     * @var array
-     */
-
     private $productFactory;
     private $state;
     private $productAttributeRepository;
