@@ -15,7 +15,7 @@ class Installer implements Setup\SampleData\InstallerInterface
 
 
     public function __construct(
-        \MagentoEse\ProductSampleDataUpdate\Model\ProductUpdate $productUpdate
+        \MagentoEse\InStorePickupSampleData\Model\ProductUpdate $productUpdate
 
     ) {
         $this->productUpdate = $productUpdate;
